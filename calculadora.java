@@ -30,10 +30,13 @@ public static void main(String[] args){
         System.out.printf("%.2f/%.2f=%.2f\n", a, b, a/b);
     }
 
-   if (!op.equals ("+") && !op.equals ("-") && !op.equals ("*") && !op.equals ("/")); 
+   //if (!op.equals ("+") && !op.equals ("-") && !op.equals ("*") && !op.equals ("/")); 
+   //System.out.println ("Operador inválido");{
+   //}
+
+   if (!(op.equals ("+") || !op.equals ("-") || !op.equals ("*") || !op.equals ("/"))); 
    System.out.println ("Operador inválido");{
    }
-
 
     //Saída
     //System.out.printf("Você digitou: %d \n", n);
