@@ -5,7 +5,7 @@ public static void main(String[] args){
     //Variaveis
     Scanner entrada;
     String nome;
-    Int idade;
+    int idade;
     Float altura;
 
     //Entrada

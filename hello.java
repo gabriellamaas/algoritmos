@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Hello{
+class hello{
 public static void main(String[] args){
     //Variaveis
     Scanner entrada;
