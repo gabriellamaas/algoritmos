@@ -3,19 +3,19 @@ import java.util.Scanner;
 class Cubo{
 public static void main(String[] args){
     //Variaveis
+    int n, cubo;
     Scanner entrada;
-    int valor, cubo;
 
     //Entrada
     entrada = new Scanner(System.in);
     System.out.print("Digite um número: ");
-    valor = entrada.nextInt ();
+    n = entrada.nextInt();
     entrada.close ();
 
-    cubo = valor*valor*valor;
-    
+    cubo = n*n*n;
+
     //Saída
-    System.out.printf("%d ao cubo é %d\n\n\n", valor, cubo);
+    System.out.printf("O nome que você digitou ao cubo é: %d \n", cubo);
     }
 }
 
